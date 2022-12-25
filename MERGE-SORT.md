@@ -53,3 +53,7 @@ A stable sorting algorithm maintains the relative order of the items with equal 
 - When you need a sorting algorithm that is guaranteed to be O(n log n) in the worst case
 
 > Note: Merge sort requires extra space to store the temporary arrays. It is not an in-place sorting algorithm.
+
+## References
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)

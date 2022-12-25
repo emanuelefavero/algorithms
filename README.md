@@ -10,14 +10,17 @@ An algorithm is a set of instructions that solves a problem. Like a recipe, an a
 
 How many operations does an algorithm take to complete?
 
-| Algorithm | Best  | Average | Worst |
-| --------- | ----- | ------- | ----- |
-| Bubble    | n     | n^2     | n^2   |
-| Insertion | n     | n^2     | n^2   |
-| Selection | n^2   | n^2     | n^2   |
-| Merge     | nlogn | nlogn   | nlogn |
-| Quick     | nlogn | nlogn   | n^2   |
-| Heap      | nlogn | nlogn   | nlogn |
+| Algorithm     | Best  | Average | Worst |
+| ------------- | ----- | ------- | ----- |
+| Bubble        | n     | n^2     | n^2   |
+| Insertion     | n     | n^2     | n^2   |
+| Selection     | n^2   | n^2     | n^2   |
+| Merge         | nlogn | nlogn   | nlogn |
+| Quick         | nlogn | nlogn   | n^2   |
+| Heap          | nlogn | nlogn   | nlogn |
+| ------------- | ----  | ------- | ----- |
+| Binary Search | 1     | logn    | logn  |
+| Linear Search | 1     | n       | n     |
 
 > Note: Big O notation is used to describe the time complexity of an algorithm. The notation is used to describe the worst case scenario. For example, the time complexity of the `Bubble` algorithm is `O(n^2)`. This means that the algorithm will take `n^2` (n squared) operations to complete. `n^2` means that the algorithm will take `n` operations for each of `n` elements. For example, if there are 10 elements, the algorithm will take 100 operations to complete.
 

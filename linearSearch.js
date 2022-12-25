@@ -1,4 +1,4 @@
-// Linear Search - O(n)
+// O(n)
 
 function linearSearch(array, target) {
   for (let i = 0; i < array.length; i++) {
