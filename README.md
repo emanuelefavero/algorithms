@@ -2,6 +2,17 @@
 
 This repository contains implementations of various algorithms
 
+## Go to algorithm detail page
+
+Search algorithms:
+
+- [Binary Search](./BINARY-SEARCH.md)
+- [Linear Search](./LINEAR-SEARCH.md)
+
+Sorting algorithms:
+
+- [Merge Sort](./MERGE-SORT.md)
+
 ## What is an algorithm?
 
 An algorithm is a set of instructions that solves a problem. Like a recipe, an algorithm is a set of steps that must be followed in order to solve a problem.
