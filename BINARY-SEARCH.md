@@ -33,6 +33,8 @@ define binarySearch(array, target)
   return -1
 ```
 
+> Note: Binary Search can also be implemented recursively. (check out binarySearchRecursive.js in this repo)
+
 ## When to use Binary Search
 
 - When you need to find an element in a sorted array or linked list
