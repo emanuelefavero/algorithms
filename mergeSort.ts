@@ -1,7 +1,7 @@
 // O(n log n) time complexity
 // O(n log n) - quasilinear
 
-function mergeSort(array) {
+function mergeSort(array: number[]): number[] {
   if (array.length <= 1) {
     return array
   }
@@ -13,15 +13,16 @@ function mergeSort(array) {
   return merge(left, right)
 }
 
-function merge(left, right) {
-  let sorted = []
+function merge(left: number[], right: number[]) {
+  let sorted: number[] = []
 
   while (left.length && right.length) {
     if (left[0] < right[0]) {
-      // shift() removes the first element and returns it
-      sorted.push(left.shift())
+      // The ! tells typescript that the value will not be null or undefined
+      sorted.push(left.shift()!)
     } else {
-      sorted.push(right.shift())
+      // shift() removes the first element and returns it
+      sorted.push(right.shift()!)
     }
   }
 
