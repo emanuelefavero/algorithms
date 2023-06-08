@@ -1,4 +1,4 @@
-// Merge Sort - O(n log n)
+// O(n log n) - quasilinear
 
 function mergeSort(array) {
   if (array.length <= 1) {

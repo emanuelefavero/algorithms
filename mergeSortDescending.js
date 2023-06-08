@@ -1,3 +1,5 @@
+// O(n log n) - quasilinear
+
 // Merge Sort Descending Order
 function mergeSort(array) {
   if (array.length < 2) return array

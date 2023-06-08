@@ -1,4 +1,4 @@
-// O(log n)
+// O(log n) - logarithmic
 
 function binarySearch(array, target) {
   let left = 0

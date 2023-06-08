@@ -1,3 +1,5 @@
+// O(log n) - logarithmic
+
 function binarySearchRecursive(array, target, start, end) {
   if (start > end) return false
 

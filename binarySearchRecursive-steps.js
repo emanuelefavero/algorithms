@@ -1,3 +1,5 @@
+// O(log n) - logarithmic
+
 let steps = 0
 function binarySearchRecursive(n, target, start, end) {
   steps++
