@@ -60,3 +60,17 @@ How much memory does an algorithm use?
 > **Algorithm Mantra:**
 >
 > Can we do better?
+
+## Run Typescript files locally
+
+- Install `nodemon` and `ts-node` globally
+
+```bash
+npm install -g nodemon ts-node
+```
+
+- Run the file
+
+```bash
+nodemon file-name.ts
+```
