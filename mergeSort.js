@@ -1,3 +1,4 @@
+// O(n log n) time complexity
 // O(n log n) - quasilinear
 
 function mergeSort(array) {
