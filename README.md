@@ -59,9 +59,24 @@ How much memory does an algorithm use?
 - **quadratic `O(n^2)`** - the number of steps is proportional to the square of the number of elements
 - **cubic `O(n^3)`** - the number of steps is proportional to the cube of the number of elements
 
-> **Algorithm Mantra:**
->
-> Can we do better?
+## Logarithms
+
+- **logarithm** - the inverse of exponentiation
+
+Example: `log2(8) = 3` because _how many times do you have to multiply 2 by itself to get a result of 8? 3_
+
+Or: _How many times do we need to halve 8 until we end up with 1? 3_
+
+### O(log n) explained
+
+`O(log n)` is a shorthand for `O(log2 n)`
+
+If we keep dividing the number of elements by 2, we will eventually end up with 1. This is exactly what happens with `binary search`.
+`O(log N)` means _the algorithm takes as many steps as it takes to keep halving the data elements until we remain with 1 element_
+
+> O(log N) algorithm takes just one additional step each time the data is doubled
+
+---
 
 ## Run Typescript files locally
 
