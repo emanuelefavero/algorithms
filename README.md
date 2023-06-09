@@ -17,21 +17,23 @@ Sorting algorithms:
 
 An algorithm is a set of instructions that solves a problem. Like a recipe, an algorithm is a set of steps that must be followed in order to solve a problem.
 
-## Time Complexity
+## Big O Notation
 
-How many operations does an algorithm take to complete?
+**If there are N data elements, how many steps does the algorithm take to complete?**
 
-| Algorithm     | Best  | Average | Worst |
-| ------------- | ----- | ------- | ----- |
-| Bubble        | n     | n^2     | n^2   |
-| Insertion     | n     | n^2     | n^2   |
-| Selection     | n^2   | n^2     | n^2   |
-| Merge         | nlogn | nlogn   | nlogn |
-| Quick         | nlogn | nlogn   | n^2   |
-| Heap          | nlogn | nlogn   | nlogn |
-| ------------- | ----  | ------- | ----- |
-| Binary Search | 1     | logn    | logn  |
-| Linear Search | 1     | n       | n     |
+### Time Complexity
+
+| Algorithm     | Best    | Average | Worst   |
+| ------------- | ------- | ------- | ------- |
+| Bubble        | n       | n^2     | n^2     |
+| Insertion     | n       | n^2     | n^2     |
+| Selection     | n^2     | n^2     | n^2     |
+| Merge         | n log n | n log n | n log n |
+| Quick         | n log n | n log n | n^2     |
+| Heap          | n log n | n log n | n log n |
+| ------------- | ----    | ------- | -----   |
+| Binary Search | 1       | log n   | log n   |
+| Linear Search | 1       | n       | n       |
 
 > Note: Big O notation is used to describe the time complexity of an algorithm. The notation is used to describe the worst case scenario. For example, the time complexity of the `Bubble` algorithm is `O(n^2)`. This means that the algorithm will take `n^2` (n squared) operations to complete. `n^2` means that the algorithm will take `n` operations for each of `n` elements. For example, if there are 10 elements, the algorithm will take 100 operations to complete.
 
@@ -50,12 +52,12 @@ How much memory does an algorithm use?
 
 ## Complexity Classes
 
-- constant `O(1)`
-- logarithmic `O(log n)`
-- linear `O(n)`
-- quasilinear `O(n log n)`
-- quadratic `O(n^2)`
-- cubic `O(n^3)`
+- **constant `O(1)`** - no matter how many elements, the algorithm will always take the same amount of steps
+- **logarithmic `O(log n)`** - each time the data is doubled, the number of steps only increases by one
+- **linear `O(n)`** - the number of steps is directly proportional to the number of elements
+- **quasilinear `O(n log n)`** - the steps grows linearly with the input size multiplied by the logarithm of the input size
+- **quadratic `O(n^2)`** - the number of steps is proportional to the square of the number of elements
+- **cubic `O(n^3)`** - the number of steps is proportional to the cube of the number of elements
 
 > **Algorithm Mantra:**
 >
