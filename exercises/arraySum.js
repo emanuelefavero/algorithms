@@ -1,3 +1,5 @@
+// O(n)
+
 function arraySum(array) {
   return array.reduce((sum, number) => {
     return sum + number
