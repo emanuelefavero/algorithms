@@ -39,7 +39,7 @@ define merge(left, right)
 
 ### Visualization
 
-![Merge Sort](./merge-sort.png 'Merge Sort')
+![Merge Sort](./merge-sort.webp 'Merge Sort')
 
 ## Merge Sort is a stable sorting algorithm
 
