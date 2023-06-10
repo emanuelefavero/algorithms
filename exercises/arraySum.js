@@ -1,9 +1,8 @@
 // O(n)
 
 function arraySum(array) {
-  return array.reduce((sum, number) => {
-    return sum + number
-  }, 0) // 0 is the initial sum value
+  return array.reduce((sum, number) => sum + number, 0)
+  // 0 is the initial sum value
 }
 
 function arraySum2(array) {
