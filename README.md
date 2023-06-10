@@ -19,9 +19,9 @@ An algorithm is a set of instructions that solves a problem. Like a recipe, an a
 
 ## Big O Notation
 
-**If there are N data elements, how many steps does the algorithm take to complete?**
-
 ### Time Complexity
+
+**If there are N data elements, how many steps does the algorithm take to complete?**
 
 | Algorithm     | Best    | Average | Worst   |
 | ------------- | ------- | ------- | ------- |
@@ -39,7 +39,7 @@ An algorithm is a set of instructions that solves a problem. Like a recipe, an a
 
 ## Space Complexity
 
-How much memory does an algorithm use?
+**How much memory does an algorithm use?**
 
 | Algorithm | Worst |
 | --------- | ----- |
