@@ -16,16 +16,21 @@ function bubbleSort(array) {
   return { arrayLength: array.length, steps: steps }
 }
 
-console.log(bubbleSort([37, 5]))
-console.log(bubbleSort([37, 5, 21]))
-console.log(bubbleSort([37, 5, 21, 44, 13]))
+console.log(bubbleSort([37, 5])) // { arrayLength: 2, steps: 1 }
+console.log(bubbleSort([37, 5, 21])) // { arrayLength: 3, steps: 3 }
+console.log(bubbleSort([37, 5, 21, 44, 13])) // { arrayLength: 5, steps: 10 }
+
 console.log(bubbleSort([37, 5, 21, 44, 13, 26, 3, 18]))
+// { arrayLength: 8, steps: 28 }
+
 console.log(
   bubbleSort([
     37, 5, 21, 44, 13, 26, 3, 18, 49, 8, 30, 11, 41, 16, 35, 2, 47, 23, 28, 7,
     38, 19, 46, 15, 31,
   ])
 )
+// { arrayLength: 25, steps: 300 }
+
 console.log(
   bubbleSort([
     37, 5, 21, 44, 13, 26, 3, 18, 49, 8, 30, 11, 41, 16, 35, 2, 47, 23, 28, 7,
@@ -33,3 +38,4 @@ console.log(
     36, 29, 4, 20, 39, 32, 24, 50, 17, 43,
   ])
 )
+// { arrayLength: 50, steps: 1225 }
