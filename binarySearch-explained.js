@@ -1,4 +1,5 @@
-// O(log n)
+// O(log n) - logarithmic
+
 function binarySearch(array, target) {
   // set left and right pointers
   let left = 0
