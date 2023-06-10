@@ -35,6 +35,12 @@ define binarySearch(array, target)
 
 > Note: Binary Search can also be implemented recursively. (check out binarySearchRecursive.js in this repo)
 
+### Visualization
+
+![Binary Search](./binary-search.webp 'Binary Search')
+
+> Image from [geeksforgeeks.org](https://www.geeksforgeeks.org/binary-search/)
+
 ## When to use Binary Search
 
 - When you need to find an element in a sorted array or linked list
