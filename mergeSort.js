@@ -2,9 +2,7 @@
 // O(n log n) - quasilinear
 
 function mergeSort(array) {
-  if (array.length <= 1) {
-    return array
-  }
+  if (array.length <= 1) return array
 
   let middle = Math.floor(array.length / 2)
   let left = mergeSort(array.slice(0, middle))
