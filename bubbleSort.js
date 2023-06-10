@@ -1,4 +1,4 @@
-// O(n ^ 2) - quadratic time complexity
+// O(n ^ 2) - quadratic time complexity O(n squared)
 
 function bubbleSort(array) {
   for (let i = 0; i < array.length - 1; i++) {

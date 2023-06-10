@@ -1,4 +1,4 @@
-// O(n ^ 2) - quadratic time complexity
+// O(n ^ 2) - quadratic time complexity O(n squared)
 
 function bubbleSort(array) {
   // loop through every item in the array except the last one
@@ -17,3 +17,5 @@ function bubbleSort(array) {
 }
 
 console.log(bubbleSort([3, 5, 1, 2, 4])) // [ 1, 2, 3, 4, 5 ]
+
+// TIP: Very often (but not always) when you see nested loops the algorithm will be O(n ^ 2)

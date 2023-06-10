@@ -26,6 +26,8 @@ define bubbleSort(array)
   return array
 ```
 
+> TIP: Very often (but not always) when you see nested loops the algorithm will be O(n ^ 2)
+
 ### Visualization
 
 ![Bubble Sort](./bubble-sort.webp 'Bubble Sort')
