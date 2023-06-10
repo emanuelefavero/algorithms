@@ -12,6 +12,7 @@ Search algorithms:
 Sorting algorithms:
 
 - [Merge Sort](./MERGE-SORT.md)
+- [Bubble Sort](./BUBBLE-SORT.md)
 
 ## What is an algorithm?
 
