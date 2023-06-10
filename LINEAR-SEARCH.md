@@ -22,6 +22,12 @@ define linearSearch(array, target)
   return -1
 ```
 
+### Visualization
+
+![Linear Search](./linear-search.webp 'Linear Search')
+
+> Image from [geeksforgeeks.org](https://www.geeksforgeeks.org/binary-search/)
+
 ## When to use Linear Search
 
 - when the list has only a few elements
