@@ -1,7 +1,6 @@
 let steps = 0
-function mergeSort(array) {
-  steps++
 
+function mergeSort(array) {
   if (array.length < 2) return array
 
   let middle = array.length / 2
@@ -15,6 +14,7 @@ function merge(left, right) {
   let sorted = []
 
   while (left.length && right.length) {
+    steps++
     if (left[0] < right[0]) sorted.push(left.shift())
     else sorted.push(right.shift())
   }
