@@ -13,6 +13,7 @@ Sorting algorithms:
 
 - [Merge Sort](./MERGE-SORT.md)
 - [Bubble Sort](./BUBBLE-SORT.md)
+- [Selection Sort](./SELECTION-SORT.md)
 
 ## What is an algorithm?
 
