@@ -26,7 +26,7 @@ define linearSearch(array, target)
 
 ![Linear Search](./linear-search.webp 'Linear Search')
 
-> Image from [geeksforgeeks.org](https://www.geeksforgeeks.org/binary-search)
+> Image from [geeksforgeeks.org](https://www.geeksforgeeks.org/linear-search)
 
 ## When to use Linear Search
 

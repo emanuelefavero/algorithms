@@ -32,7 +32,7 @@ define bubbleSort(array)
 
 ![Bubble Sort](./bubble-sort.webp 'Bubble Sort')
 
-> Image from [geeksforgeeks.org](https://www.geeksforgeeks.org/binary-search)
+> Image from [geeksforgeeks.org](https://www.geeksforgeeks.org/bubble-sort)
 
 ## Bubble Sort is a stable sorting algorithm
 
