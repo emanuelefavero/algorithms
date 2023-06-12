@@ -18,11 +18,11 @@ Selection sort is a simple comparison-based sorting algorithm. In Selection Sort
 define selectionSort(array)
 n = length of array
 for i from 0 to n-1
-minIndex = i
+lowest = i
 for j from i+1 to n
-if array[j] < array[minIndex]
-minIndex = j
-swap array[minIndex] with array[i]
+if array[j] < array[lowest]
+lowest = j
+swap array[lowest] with array[i]
 ```
 
 ### Visualization

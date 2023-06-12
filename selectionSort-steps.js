@@ -14,10 +14,8 @@ function selectionSort(array) {
       }
     }
 
-    if (lowest !== i) {
-      steps++
-      ;[array[i], array[lowest]] = [array[lowest], array[i]]
-    }
+    steps++
+    ;[array[i], array[lowest]] = [array[lowest], array[i]]
   }
 
   return { array, steps }

@@ -17,10 +17,8 @@ function selectionSort(array) {
       }
     }
 
-    // If the lowest element is not the current element, swap the two
-    if (lowest !== i) {
-      ;[array[i], array[lowest]] = [array[lowest], array[i]]
-    }
+    // swap the current element with the lowest element
+    ;[array[i], array[lowest]] = [array[lowest], array[i]]
   }
 
   return array
