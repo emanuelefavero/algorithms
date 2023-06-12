@@ -1,6 +1,6 @@
 # Merge Sort
 
-Merge sort is a sorting algorithm that uses the divide and conquer approach and recursion. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, l, m, r) is key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one.
+Merge sort is a sorting algorithm that uses the divide and conquer approach and recursion. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, l, m, r) is key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one
 
 ### Time Complexity
 
@@ -43,7 +43,7 @@ define merge(left, right)
 
 ## Merge Sort is a stable sorting algorithm
 
-A stable sorting algorithm maintains the relative order of the items with equal sort keys. An unstable sorting algorithm does not. In other words, when a collection is sorted with a stable sorting algorithm, items with the same sort keys preserve their order after the collection is sorted.
+A stable sorting algorithm maintains the relative order of the items with equal sort keys. An unstable sorting algorithm does not. In other words, when a collection is sorted with a stable sorting algorithm, items with the same sort keys preserve their order after the collection is sorted
 
 ## When to use Merge Sort
 
@@ -52,7 +52,7 @@ A stable sorting algorithm maintains the relative order of the items with equal 
 - When you need a sorting algorithm that is guaranteed to be O(n log n)
 - When you need a sorting algorithm that is guaranteed to be O(n log n) in the worst case
 
-> Note: Merge sort requires extra space to store the temporary arrays. It is not an in-place sorting algorithm.
+> Note: Merge sort requires extra space to store the temporary arrays. It is not an in-place sorting algorithm
 
 ## References
 

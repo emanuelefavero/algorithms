@@ -39,7 +39,7 @@ define binarySearch(array, target)
 
 ![Binary Search](./binary-search.webp 'Binary Search')
 
-> Image from [geeksforgeeks.org](https://www.geeksforgeeks.org/binary-search/)
+> Image from [geeksforgeeks.org](https://www.geeksforgeeks.org/binary-search)
 
 ## When to use Binary Search
 
