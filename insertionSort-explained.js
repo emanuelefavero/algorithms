@@ -20,6 +20,7 @@ function insertionSort(array) {
     // When the pointer is no longer in range or the element before
     // the current one is no longer greater than the current one,
     // insert the current element into its correct position
+    // TIP: The position will be the right element of the pointer that made the loop stop
     array[j + 1] = current
   }
 
