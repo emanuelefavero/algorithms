@@ -1,3 +1,6 @@
+// O(n^2) - quadratic - worst case
+// O(n) - linear - best case
+
 function insertionSort(array) {
   for (let i = 1; i < array.length; i++) {
     let current = array[i]
