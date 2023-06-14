@@ -1,27 +1,23 @@
 function insertionSort(array) {
-  // Loop through the array, starting at the second element
+  // Loop through the array, starting at the second element (since we will be going backwards on the nested while loop)
   for (let i = 1; i < array.length; i++) {
-    // Get the current element to be sorted...
+    // Store the current value from the first loop (i) in a temporary variable
     let current = array[i]
 
     // ... and set up a pointer to the element before it
-    let j = i - 1
+    let position = i - 1
 
-    // While the pointer is still in range and the element before
-    // the current one is greater than the current one...
-    while (j >= 0 && array[j] > current) {
-      // ... move the greater element forward
-      array[j + 1] = array[j]
+    // While the value to the left of current is greater than current or has not reached the start of the array
+    while (position >= 0 && array[position] > current) {
+      // Shift all the values to the right to make space for the current value...
+      array[position + 1] = array[position]
 
-      // ... and decrement the pointer
-      j--
+      // decrement the each value
+      position--
     }
 
-    // When the pointer is no longer in range or the element before
-    // the current one is no longer greater than the current one,
-    // insert the current element into its correct position
-    // TIP: The position will be the right element of the pointer that made the loop stop
-    array[j + 1] = current
+    // ...Assign the current value to its correct position (to the first value that doesn't match the while loop)
+    array[position + 1] = current
   }
 
   return array
