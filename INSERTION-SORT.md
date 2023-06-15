@@ -24,13 +24,13 @@ It is much less efficient on large lists than more advanced algorithms such as *
 define insertionSort(array)
   for i = 1 to array.length
     current = array[i]
-    j = i - 1
+    position = i
 
-    while j >= 0 and array[j] > current
-      array[j + 1] = array[j]
-      j = j - 1
+    while position >= 0 and array[position - 1] > current
+      array[position] = array[position - 1]
+      position = position - 1
 
-    array[j + 1] = current
+    array[position] = current
 
   return array
 ```

@@ -4,20 +4,21 @@ function insertionSort(array) {
     // Store the current value from the first loop (i) in a temporary variable
     let current = array[i]
 
-    // ... and set up a pointer to the element before it
-    let position = i - 1
+    // and set up a pointer to the element before it
+    let position = i
 
     // While the value to the left of current is greater than current or has not reached the start of the array
-    while (position >= 0 && array[position] > current) {
+    while (position >= 0 && array[position - 1] > current) {
       // Shift all the values to the right to make space for the current value...
-      array[position + 1] = array[position]
+      array[position] = array[position - 1]
 
       // decrement the each value
       position--
     }
 
+    // TIP: After the while loop ends, the correct position for current is found
     // ...Assign the current value to its correct position (to the first value that doesn't match the while loop)
-    array[position + 1] = current
+    array[position] = current
   }
 
   return array

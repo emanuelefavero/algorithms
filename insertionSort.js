@@ -4,14 +4,14 @@
 function insertionSort(array) {
   for (let i = 1; i < array.length; i++) {
     let current = array[i]
-    let j = i - 1
+    let position = i
 
-    while (j >= 0 && array[j] > current) {
-      array[j + 1] = array[j]
-      j--
+    while (position >= 0 && array[position - 1] > current) {
+      array[position] = array[position - 1]
+      position--
     }
 
-    array[j + 1] = current
+    array[position] = current
   }
 
   return array
