@@ -1,3 +1,5 @@
+// O(n) - linear
+
 function averageOfEvenNumbers(array) {
   let sum = 0
   let evenNumbersCount = 0
