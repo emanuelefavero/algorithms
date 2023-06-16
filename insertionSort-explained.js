@@ -16,8 +16,8 @@ function insertionSort(array) {
       position--
     }
 
-    // TIP: After the while loop ends, the correct position for current is found
-    // ...Assign the current value to its correct position (to the first value that doesn't match the while loop)
+    // TIP: Since all of the shifted values were greater than current, we can put current at the current position (which is on the left of all shifted values and on the right of the element that ended the while loop (the smaller element than current))
+    // e.g. [smaller element that ended the loop, current, shifted value 2, shifted value 1, previous current position]
     array[position] = current
   }
 
