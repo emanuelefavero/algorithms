@@ -1,4 +1,6 @@
 // Prints all the subdirectories names starting from a given directory path
+// TIP: Recursion is perfect for task where you don't know how many sub layers there are
+
 const fs = require('fs')
 const path = require('path')
 
