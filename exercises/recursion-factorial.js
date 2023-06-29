@@ -1,3 +1,4 @@
+// Factorial - multiply an integer by all the positive integers less than that integer up until 1
 function factorial(number) {
   if (number <= 1) return 1
 
