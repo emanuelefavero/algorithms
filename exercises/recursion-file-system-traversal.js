@@ -19,6 +19,6 @@ function printSubdirectories(directory) {
   })
 }
 
-console.log(printSubdirectories('.')) // prints all the subdirectories from the current directory
+printSubdirectories('.') // prints all the subdirectories from the current directory
 
 // TIP: Try passing a directory path such as '/Users/ef/Downloads'
