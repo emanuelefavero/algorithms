@@ -61,6 +61,7 @@ An algorithm is a set of instructions that solves a problem. Like a recipe, an a
 - **quasilinear `O(n log n)`** - the steps grows linearly with the input size multiplied by the logarithm of the input size
 - **quadratic `O(n^2)`** - the number of steps is proportional to the square of the number of elements
 - **cubic `O(n^3)`** - the number of steps is proportional to the cube of the number of elements
+- **factorial `O(n!)`** - the number of steps is proportional to the factorial of the number of elements (e.g. `O(3!)` = `O(3 * 2 * 1)` = `O(6)`)
 
 ## Logarithms
 
