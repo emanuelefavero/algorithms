@@ -40,6 +40,8 @@ define quickSort(array)
   return [...quickSort(left), pivot, ...quickSort(right)]
 ```
 
+> Note: The pivot can be any element in the array. In this example, we pick the first element as the pivot. To prevent the worst case time complexity of O(n^2), we can pick a random element as the pivot or pick the median as the pivot. Choosing the first or last element is easier to implement.
+
 ## Visualization
 
 ![Quick Sort](./quick-sort.webp 'Quick Sort')
