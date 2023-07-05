@@ -10,7 +10,7 @@ Quick sort is a sorting algorithm that uses the divide and conquer approach and 
 
 > Note: Since the average case is O(n log n), quick sort is considered to be one of the fastest sorting algorithms and is used a lot in programming languages built-in sort methods. (The average case is the one that is most likely to occur)
 >
-> BEWARE: Quick Sort performs poorly when the array is already sorted or almost sorted. In this case, the worst case time complexity is O(n^2)
+> BEWARE: Quick Sort performs poorly when the array is already sorted or almost sorted. In this case, the worst case time complexity is O(n^2) so Insertion Sort is a better choice for this scenario
 
 ## Space Complexity
 
