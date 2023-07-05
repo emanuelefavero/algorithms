@@ -15,6 +15,9 @@ Sorting algorithms:
 - [Bubble Sort](./BUBBLE-SORT.md)
 - [Selection Sort](./SELECTION-SORT.md)
 - [Insertion Sort](./INSERTION-SORT.md)
+- [Quick Sort](./QUICK-SORT.md)
+
+> Note: Quick Sort is generally considered the best sorting algorithm for most cases unless the data is already sorted or almost sorted. In this case, Insertion Sort is a better choice
 
 ## What is an algorithm?
 
