@@ -2,7 +2,7 @@
 
 // Merge Sort is a Divide and Conquer algorithm that uses recursion. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
 function mergeSort(array) {
-  // 1. return the array if it has only one element
+  // 1. return the array if it has only one element (BASE CASE)
   if (array.length <= 1) {
     return array
   }
