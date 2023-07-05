@@ -31,7 +31,7 @@ let array = [
   52, 45,
 ]
 
-// BEWARE: Run on mergeSort at a time to properly count steps
+// BEWARE: Run one mergeSort at a time to properly count steps
 
 console.log(mergeSort(array))
 // console.log(mergeSort([1, 2]))
