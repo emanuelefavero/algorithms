@@ -2,6 +2,9 @@
 // O(n log n) - quasilinear - average and best case
 
 // Quick Sort is a Divide and Conquer algorithm that uses recursion. It works by selecting a pivot element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then recursively sorted using the same process, and the sorted sub-arrays are combined to obtain the final sorted array.
+
+// TIP: Quick Sort is generally the fastest sorting algorithm for large datasets unless the data is nearly sorted. In that case Insertion Sort is a better option.
+
 function quickSort(array) {
   // 1. return the array if it has only one element (BASE CASE)
   if (array.length <= 1) return array

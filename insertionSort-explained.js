@@ -1,3 +1,8 @@
+// O(n^2) - quadratic - worst case
+// O(n) - linear - best case
+
+// TIP: Insertion Sort is generally the fastest sorting algorithm when the data set is nearly sorted. In other cases Quick Sort is a better option.
+
 function insertionSort(array) {
   // Loop through the array, starting at the second element (since we will be going backwards on the nested while loop)
   for (let i = 1; i < array.length; i++) {
