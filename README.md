@@ -98,3 +98,7 @@ npm install -g nodemon ts-node
 ```bash
 nodemon file-name.ts
 ```
+
+## Big O
+
+Visit the [Big O Cheat-sheet](https://www.bigocheatsheet.com/) to quickly check the time and space complexity of common algorithms and data structures.
