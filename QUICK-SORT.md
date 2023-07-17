@@ -60,3 +60,15 @@ define quickSort(array)
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Quicksort?useskin%253Dvector)
+
+&nbsp;
+
+---
+
+&nbsp;
+
+[**Go To Top &nbsp; ⬆️**](#quick-sort)
+
+[**← Go Back**](../README.md)
+
+&nbsp;

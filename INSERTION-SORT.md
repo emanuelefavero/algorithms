@@ -52,3 +52,15 @@ define insertionSort(array)
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort?useskin=vector)
+
+&nbsp;
+
+---
+
+&nbsp;
+
+[**Go To Top &nbsp; ⬆️**](#insertion-sort)
+
+[**← Go Back**](../README.md)
+
+&nbsp;

@@ -41,3 +41,15 @@ define linearSearch(array, target)
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Linear_search#:~:text=Linear%20search%20is%20usually%20very,to%20use%20a%20faster%20method.)
+
+&nbsp;
+
+---
+
+&nbsp;
+
+[**Go To Top &nbsp; ⬆️**](#linear-search)
+
+[**← Go Back**](../README.md)
+
+&nbsp;

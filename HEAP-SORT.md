@@ -58,3 +58,15 @@ An in-place sorting algorithm sorts the elements within the original array witho
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Heapsort?useskin=vector)
+
+&nbsp;
+
+---
+
+&nbsp;
+
+[**Go To Top &nbsp; ⬆️**](#heap-sort)
+
+[**← Go Back**](../README.md)
+
+&nbsp;
