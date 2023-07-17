@@ -48,3 +48,15 @@ define binarySearch(array, target)
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+
+&nbsp;
+
+---
+
+&nbsp;
+
+[**Go To Top &nbsp; ⬆️**](#binary-search)
+
+[**← Go Back**](../README.md)
+
+&nbsp;
