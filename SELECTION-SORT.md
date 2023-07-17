@@ -43,7 +43,7 @@ An in-place sorting algorithm sorts the elements within the original array witho
 
 > Note: Selection sort has poor performance compared to other sorting algorithms for large input sizes
 
-References
+## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Selection_sort?useskin=vector)
 
