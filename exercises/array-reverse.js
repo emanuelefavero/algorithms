@@ -1,5 +1,6 @@
 // Create a function that reverses an array
 
+// O(n) time, space
 function reverse(array) {
   let reversed = []
 
