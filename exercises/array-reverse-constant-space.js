@@ -4,6 +4,7 @@
 function reverse(array) {
   // We only need to swap half of the array since the other half will be already swapped by the time we reach half of the array
   for (let i = 0; i < array.length / 2; i++) {
+    // Swap the first and last elements and so on
     let temp = array[array.length - 1 - i]
     array[array.length - 1 - i] = array[i]
     array[i] = temp
