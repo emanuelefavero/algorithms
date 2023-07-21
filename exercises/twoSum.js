@@ -1,15 +1,17 @@
 // twoSum - check whether an array of numbers contains a pair of two numbers that add up to 10
 // O(n)
 
-function twoSum2(array1, array2) {
-  let set1 = new Set(array1)
+function twoSum(array) {
+  let hashTable = {}
 
-  // Return a filtered array with all the elements that sum up to 10 between array1 and array2
-  let output = array2.filter((element) => set1.has(10 - element))
+  for (let i = 0; i < array.length; i++) {
+    if (hashTable[10 - array[i]]) return true
 
-  // Return true or false of output array has elements
-  return output.length > 0
+    hashTable[array[i]] = true
+  }
+
+  return false
 }
 
-console.log(twoSum2([5, 1], [5, 2])) // true
-console.log(twoSum2([5, 1], [3, 2])) // false
+console.log(twoSum([1, 2, 5, 9])) // true
+console.log(twoSum([1, 2, 5])) // false
