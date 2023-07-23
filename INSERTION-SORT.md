@@ -61,6 +61,6 @@ define insertionSort(array)
 
 [**Go To Top &nbsp; ⬆️**](#insertion-sort)
 
-[**← Go Back**](../README.md)
+[**← Go Back**](./README.md)
 
 &nbsp;

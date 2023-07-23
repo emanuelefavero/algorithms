@@ -58,6 +58,6 @@ A stable sorting algorithm maintains the relative order of the items with equal 
 
 [**Go To Top &nbsp; ⬆️**](#bubble-sort)
 
-[**← Go Back**](../README.md)
+[**← Go Back**](./README.md)
 
 &nbsp;

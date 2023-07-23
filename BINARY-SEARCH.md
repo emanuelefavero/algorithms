@@ -57,6 +57,6 @@ define binarySearch(array, target)
 
 [**Go To Top &nbsp; ⬆️**](#binary-search)
 
-[**← Go Back**](../README.md)
+[**← Go Back**](./README.md)
 
 &nbsp;

@@ -50,6 +50,6 @@ define linearSearch(array, target)
 
 [**Go To Top &nbsp; ⬆️**](#linear-search)
 
-[**← Go Back**](../README.md)
+[**← Go Back**](./README.md)
 
 &nbsp;

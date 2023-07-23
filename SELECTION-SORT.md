@@ -55,6 +55,6 @@ An in-place sorting algorithm sorts the elements within the original array witho
 
 [**Go To Top &nbsp; ⬆️**](#selection-sort)
 
-[**← Go Back**](../README.md)
+[**← Go Back**](./README.md)
 
 &nbsp;

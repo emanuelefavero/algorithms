@@ -69,6 +69,6 @@ define quickSort(array)
 
 [**Go To Top &nbsp; ⬆️**](#quick-sort)
 
-[**← Go Back**](../README.md)
+[**← Go Back**](./README.md)
 
 &nbsp;
