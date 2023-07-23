@@ -19,6 +19,10 @@ Sorting algorithms:
 
 > Note: Quick Sort is generally considered the best sorting algorithm for most cases unless the data is already sorted or almost sorted. In this case, Insertion Sort is a better choice
 
+Memoization and Dynamic Programming:
+
+- [Memoization and Dynamic Programming](./MEMOIZATION-AND-DYNAMIC-PROGRAMMING.md)
+
 ## What is an algorithm?
 
 An algorithm is a set of instructions that solves a problem. Like a recipe, an algorithm is a set of steps that must be followed in order to solve a problem.
