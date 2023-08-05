@@ -1,6 +1,4 @@
-// Write a function that reverses an array. Do not use recursion
 // O(n)
-
 function reverse(array) {
   for (let i = 0; i < array.length / 2; i++) {
     let temp = array[i]
