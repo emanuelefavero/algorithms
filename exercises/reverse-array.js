@@ -9,4 +9,4 @@ function reverse(array) {
   return reversed
 }
 
-console.log(reverse([1, 2, 3]))
+console.log(reverse([1, 2, 3])) // [3, 2, 1]
