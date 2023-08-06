@@ -10,24 +10,21 @@
 // 3! = 3 * 2 * 1 = 6
 
 // * PERMUTATIONS - Write a function that takes an array of items and returns all possible permutations of those items
-// O(n!) factorial time complexity
-function generatePermutations(array) {
-  // base case
+// O(n!) factorial
+function generatePermutations(array, permutations = []) {
+  // BASE CASE
   if (array.length === 0) {
-    console.log(permutation)
+    console.log(permutations)
     return
   }
 
   for (let i = 0; i < array.length; i++) {
-    let item = array.shift() // remove first item from array
-    permutation.push(item) // add item to permutation
-    generatePermutations(array) // recursive call
+    let item = array.shift() // remove first item from array and save it to item
+    permutations.push(item) // add item to permutations
+    generatePermutations(array, permutations) // recursive call
     array.push(item) // add item back to array
-    permutation.pop() // remove last item
+    permutations.pop() // remove last item from permutations
   }
 }
 
-let array = [1, 2, 3]
-let permutation = []
-
-generatePermutations(array)
+generatePermutations([1, 2, 3])
