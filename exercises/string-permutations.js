@@ -1,26 +1,20 @@
-function swap(arr, i, j) {
-  const temp = arr[i]
-  arr[i] = arr[j]
-  arr[j] = temp
-}
+// TIP: A permutation is a unique arrangement of the elements (in this case the characters)
 
-function generatePermutations(str, start, end) {
-  if (start === end) {
-    console.log(str.join(''))
+// Write a function that returns all the permutations of a given string
+// O(n!)
+function permutation(string, prefix = '') {
+  // BASE CASE
+  if (string.length === 0) {
+    console.log(prefix)
   } else {
-    for (let i = start; i <= end; i++) {
-      swap(str, start, i)
-      generatePermutations(str, start + 1, end)
-      swap(str, start, i) // Backtrack
+    for (let i = 0; i < string.length; i++) {
+      // Remove the character at index i
+      let rem = string.substring(0, i) + string.substring(i + 1)
+
+      // Recursion
+      permutation(rem, prefix + string.charAt(i))
     }
   }
 }
 
-function printAllPermutations(input) {
-  const strArray = input.split('')
-  const n = strArray.length
-  generatePermutations(strArray, 0, n - 1)
-}
-
-const inputString = 'abc'
-printAllPermutations(inputString)
+permutation('abc')
