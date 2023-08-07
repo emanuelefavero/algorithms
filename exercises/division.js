@@ -15,6 +15,8 @@ function division(a, b) {
   return count
 }
 
+console.log(division(10, 2)) // 5
+
 // Implement division using the division operator
 // O(a / b)
 function division2(a, b) {
