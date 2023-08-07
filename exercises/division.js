@@ -1,3 +1,5 @@
+// Implement division without using the division operator
+// O(a / b)
 function division(a, b) {
   // initialize count and sum
   let count = 0
@@ -13,17 +15,10 @@ function division(a, b) {
   return count
 }
 
-console.log(division(10, 2)) // 5
-
+// Implement division using the division operator
+// O(a / b)
 function division2(a, b) {
-  if (a < b) return 0
-  return 1 + division2(a - b, b)
-}
-
-console.log(division2(10, 2)) // 5
-
-function division3(a, b) {
   return a / b
 }
 
-console.log(division3(10, 2)) // 5
+console.log(division2(10, 2)) // 5
