@@ -1,4 +1,6 @@
 // O(n^2)
+
+// We can also create bubbleSort by going down in the first loop and going up in the second loop and looping j until is less than i
 function bubbleSort(array) {
   for (let i = array.length - 1; i > 0; i--) {
     for (let j = 0; j < i; j++) {
