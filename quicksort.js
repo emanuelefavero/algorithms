@@ -1,5 +1,6 @@
 // O(n^2) - quadratic - worst case
 // O(n log n) - quasilinear - average and best case
+// (n) space
 
 function quickSort(array) {
   if (array.length <= 1) return array
