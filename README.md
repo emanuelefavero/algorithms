@@ -23,6 +23,10 @@ Memoization and Dynamic Programming:
 
 - [Memoization and Dynamic Programming](./MEMOIZATION-AND-DYNAMIC-PROGRAMMING.md)
 
+Brain Teasers:
+
+- [Brain Teasers](./BRAIN-TEASERS.md)
+
 ## What is an algorithm?
 
 An algorithm is a set of instructions that solves a problem. Like a recipe, an algorithm is a set of steps that must be followed in order to solve a problem.
