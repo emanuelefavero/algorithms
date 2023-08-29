@@ -14,6 +14,20 @@ You have nine balls. One of them is heavier than the others. You have a balance 
 
 > Solution: Divide the balls into 3 groups of 3. Weigh two of the groups and leave the third group aside. If the two groups are equal, the heavier ball is in the third group. If one of the groups is heavier, the heavier ball is in that group. Do the same with the 3 balls in the heavier group. You will have found the heavier ball in two uses of the scale.
 
+## 3. The heavy pill
+
+You have 20 bottles of pills. 19 bottles have 1.0 gram pills, but one has pills of weight 1.1 grams. Given a scale that provides an exact measurement, how would you find the heavy bottle? You can only use the scale once.
+
+> Solution: Put 10 bottles on each side of the scale. The heavier side has the heavier bottle. Now remove one bottle from each side until the scale is balanced. The last bottle removed from the heavier side is the heavier bottle.
+>
+> Solution 2: Number the bottles from 1 to 20. Take 1 pill from bottle 1, 2 pills from bottle 2, 3 pills from bottle 3, and so on. Weigh all the pills together. The difference between the actual weight and the expected weight is the number of the bottle with the heavier pills.
+
+## 4. Dominos on a chessboard
+
+You have a chessboard and 31 dominos. The chessboard will have two diagonally opposite corners cut off. Each domino covers two squares on the chessboard. Can you cover the chessboard using all the dominos?
+
+> Solution: No. Each domino covers one white square and one black square. The chessboard has 30 white squares and 32 black squares. Therefore, it is impossible to cover the chessboard using all the dominos.
+
 &nbsp;
 
 ---
