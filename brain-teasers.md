@@ -28,6 +28,12 @@ You have a chessboard and 31 dominos. The chessboard will have two diagonally op
 
 > Solution: No. Each domino covers one white square and one black square. The chessboard has 30 white squares and 32 black squares. Therefore, it is impossible to cover the chessboard using all the dominos.
 
+## 5. Jugs of water
+
+You have a five-quart jug (1.25 gallons), a three-quart jug (0.75 gallons), and an unlimited supply of water. How would you come up with exactly four quarts of water? (You can't measure the half jugs)
+
+> Solution: Fill the 5-quart jug. Move 5-quart water to 3-quart. Dump 3-quart water. Fill 3-quart with 5-quart water (2-quart). Fill 5-quart. Fill 3-quart with 5-quart water. Done! You have 4 quarts in the 5-quart jug.
+
 &nbsp;
 
 ---
