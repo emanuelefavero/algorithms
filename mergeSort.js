@@ -1,4 +1,3 @@
-// O(n log n) time complexity
 // O(n log n) - quasilinear
 
 function mergeSort(array) {
@@ -16,8 +15,7 @@ function merge(left, right) {
 
   while (left.length && right.length) {
     if (left[0] < right[0]) {
-      // shift() removes the first element and returns it
-      sorted.push(left.shift())
+      sorted.push(left.shift()) // remove first element and push to sorted
     } else {
       sorted.push(right.shift())
     }
