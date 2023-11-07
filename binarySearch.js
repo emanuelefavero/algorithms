@@ -7,14 +7,11 @@ function binarySearch(array, target) {
   while (left <= right) {
     let middle = Math.floor((left + right) / 2)
 
-    if (array[middle] === target) {
-      return middle // found, return index
-    } else if (array[middle] < target) {
-      left = middle + 1
-    } else if (array[middle] > target) {
-      right = middle - 1
-    }
+    if (array[middle] === target) return middle
+    else if (array[middle] < target) left = middle + 1
+    else right = middle - 1
   }
+
   return -1
 }
 
