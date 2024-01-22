@@ -1,3 +1,4 @@
+// O(n) time | O(n) space
 function factorial(n) {
   if (n <= 1) return 1
 

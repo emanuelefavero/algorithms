@@ -1,5 +1,6 @@
 // This is a classic example of dynamic programming and memoization
-// O(n)
+
+// O(n) time | O(n) space
 function fibonacci(n, memo = {}) {
   if (n === 0 || n === 1) return n
 
