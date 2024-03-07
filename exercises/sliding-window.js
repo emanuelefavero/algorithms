@@ -4,6 +4,13 @@
 
 // The sliding window technique can help us solve these kind of problems in O(n) time complexity instead of O(n^2) time complexity (preventing the use of nested loops)
 
+/**
+ * @param {number[]} array
+ * @param {number} k
+ * @returns {number} maxSum
+ */
+
+// O(n) time complexity
 function getMaxSum(array, k) {
   // Get the sum of the first k elements
   let sum = 0
