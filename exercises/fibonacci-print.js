@@ -1,5 +1,5 @@
 // Create a function that prints all the numbers of the Fibonacci sequence up to a given number
-function printFibonacci(n) {
+function fib(n) {
   console.log(0)
   console.log(1)
 
@@ -14,4 +14,4 @@ function printFibonacci(n) {
   }
 }
 
-printFibonacci(10)
+fib(10) // 0 1 1 2 3 5 8 13 21 34 55
